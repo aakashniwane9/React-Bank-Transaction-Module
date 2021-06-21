@@ -1,7 +1,7 @@
 export default function EntryField() {
     let list = [];
     list = JSON.parse(localStorage.getItem("transactionList"));
-    return ( 
+    return (
         <div>
             {list != null && list.map(item => {
                 return (
